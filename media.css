@@ -1,0 +1,123 @@
+@media screen and (max-width: 790px){
+    #images-place .image-collection1 .collection-image{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background-color: green;
+      width: 200px;
+      height: 100px;
+    }
+    #search-bar input{
+        width: 295px;
+    }
+      #collections-para #para{
+        margin: 5px;
+        font-size: 20px;
+      }
+      #main-div .image-card{
+        width: 400px;
+      }
+      #main-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .image-card .div-image1{
+        width: 400px;
+        height: 200px;
+      }
+      #images-place{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+      }
+      #collections #collections-h2{
+        margin: 0;
+        font-size: 35px;
+        margin-left: 0;
+      }
+      #para{
+        font-size: 30px;
+      }
+      .main-div1 #localities{
+        font-size: 30px;
+        margin: 0;
+        font-weight: bolder;
+      }
+      /* .popular{
+        width: 100px;
+        padding: 0;
+        margin: 0;
+        display: none;
+      } */
+      .options-near #options-h2 h2{
+        font-size: 30px;
+        /* margin: 0;
+        padding: 0; */
+        font-weight: bolder;
+        margin-top: 20px;
+      }
+      .options-near #slidedown-content1{
+        width: 400px;
+      }
+      .options-near #slidedown-content2{
+        width: 400px;
+      }
+      .options-near #slidedown-content3{
+        width: 400px;
+      } 
+      .options-near #slidedown-content4{
+        width: 400px;
+      }
+      .options-near .popular{
+         display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+      }
+
+      #header-links ul a li{
+        display: inline-block
+      }
+      #zomato-content{
+        width: 200px;
+      }
+    #header-links ul li{
+      background-color: rgba(0, 0, 0, 0.5);
+        color: wheat;
+    }
+        /* input[type="text"] {
+
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px 0 0 4px;
+          outline: none;
+          background-color: black;
+        } */
+    #zomato-content h2{
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+    }
+     #main-div{
+      display: flex;
+      flex-direction: column;
+      margin: 5px;
+      flex-wrap: wrap;
+     }
+     .div-image1{
+      width: 95.5vw;
+     }
+     .image-card{
+      margin: 5px;
+     } 
+    }
+    
+    @media screen and (max-width:400px) {
+      #main-div .image-card{
+        width: 200px;
+      }
+      .image-card .div-image1{
+        width: 200px;
+        height: 200px;
+      }
+    }
